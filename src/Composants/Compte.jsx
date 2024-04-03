@@ -2,9 +2,10 @@ import ReactDOM from "react";
 import React from "react";
 import "../index.css"
 import "../style/Compte.css"
-
+import AfficherData from "./AfficheDate";
 function AfficherCompte() {
     return (
+        <>
         <div class="flex justify-center">
             <div className="container bg-white shadow-md rounded-md mt-9">
                 <div class="flex justify-evenly pt-9">
@@ -24,6 +25,8 @@ function AfficherCompte() {
                 </div>
             </div>
         </div>
+        <AfficherData/>
+        </>
     )
 }
 
