@@ -5,15 +5,18 @@ import App from './App';
 import AfficherCompte from './Composants/Compte';
 import Recherche from './Composants/Recherche';
 
-
 const root = document.getElementById("root");
 ReactDOM.render(
   <App/>,root
 )
+
+
 const AccueilBtn = document.getElementsByTagName("button")[0];
 const CompteBtn = document.getElementsByTagName("button")[1];
 const RechercheBtn = document.getElementsByTagName("button")[3];
 const EvenementBtn = document.getElementsByTagName("button")[2];
+
+
 
 AccueilBtn.addEventListener("click",(event)=> {
   ReactDOM.render(

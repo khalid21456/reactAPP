@@ -19,8 +19,15 @@
     border-color: #66afe9;
     outline: none;
 }
-.AjouterBtn {
+.AjouterBtn  {
     background-color: #1b545a;
+}
+
+.SupprimerBtn {
+    background-color: #1b545a;
+    padding-left: 70px ;
+    margin-top: 20px;
+
 }
 
 .data {
