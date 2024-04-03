@@ -1,5 +1,6 @@
 import react from "react"
 import ReactDOM from "react-dom"
+import "../style/Accueil.css"
 
 function AfficherAccueil() {
     return (

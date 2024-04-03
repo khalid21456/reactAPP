@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import AfficherCompte from './Composants/Compte';
+import Recherche from './Composants/Recherche';
 
 
 const root = document.getElementById("root");
@@ -11,10 +12,8 @@ ReactDOM.render(
 )
 const AccueilBtn = document.getElementsByTagName("button")[0];
 const CompteBtn = document.getElementsByTagName("button")[1];
-const RechercheBtn = document.getElementsByTagName("button")[2];
-const EvenementBtn = document.getElementsByTagName("button")[3];
-
-
+const RechercheBtn = document.getElementsByTagName("button")[3];
+const EvenementBtn = document.getElementsByTagName("button")[2];
 
 AccueilBtn.addEventListener("click",(event)=> {
   ReactDOM.render(
@@ -29,7 +28,9 @@ CompteBtn.addEventListener("click",(event)=> {
 })
 
 RechercheBtn.addEventListener("click",(event)=> {
-  
+  ReactDOM.render(
+    <Recherche/>,root
+  )
 })
 
 EvenementBtn.addEventListener("click",(event)=> {
