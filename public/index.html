@@ -3,83 +3,85 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../src/index.css"/>
+    <link rel="stylesheet" href="../src/index.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <title>React App</title>
   </head>
   <body>
-
     <div class="page flex">
-      <div class="navbar">
-          <div class="flex flex-col items-center mt-5">
-            <img 
-              src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRhvG2pdEygKaC6fsp7fCHvulcfTMNdA2Q4Djv4j2JGElwOIyFb"
-              alt="phpoto de profile"
-              class="w-40 h-40 rounded-full "
-              />
-              <h1 class=" nom mt-5">Tom Hanks</h1>
-          </div>
-          
-          <div class="mt-10 flex flex-col items-center" >
-            <button class=" hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg w-56 flex ">
-              <div class="ml-1">
-                <img src="images/home.png"
-                     class="w-7 h-7"    
-                />
-              </div>
-              <lable class="ml-6">Accueil</lable>
-            </button>
-              <button class=" hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg w-56 flex ">
-                <img src="images/compte.png"
-                     class="w-8 h-8"    
-                />
-                <lable class="ml-6">Mon Compte</lable>
-              </button>
-              <button class=" hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg w-56 flex ">
-                
-                <img src="images/events.png"
-                     class="w-8 h-8"    
-                />
-                <lable class="ml-6">Evenements</lable>
-              </button>
-              <button class=" hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg w-56 flex ">
-                
-                <img src="images/recherches.png"
-                     class="w-8 h-8"    
-                />
-                <lable class="ml-6">Recherches</lable>
-              </button>
-              <button class=" hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg w-56 flex ">
-                <div class="ml-1">
-                  <img src="images/paramétres.png"
-                       class="w-7 h-7"    
-                  />
-              </div>
-                <lable class="ml-6">Paramétres</lable>
-              </button>
-              <button class=" hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg w-56 flex ">
-                <div class="ml-1">
-                  <img src="images/log-out.png"
-                       class="w-7 h-7"    
-                  />
-              </div>
-                <lable class="ml-6">Déconnecter</lable>
-              </button>
-          </div>
+      <div class="navbar shadow-md shadow-zinc-400 rounded-e-lg">
+        <div class="flex flex-col items-center mt-5">
+          <img
+            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRhvG2pdEygKaC6fsp7fCHvulcfTMNdA2Q4Djv4j2JGElwOIyFb"
+            alt="phpoto de profile"
+            class="w-40 h-40 rounded-full"
+          />
+          <h1 class="nom mt-5">Tom Hanks</h1>
+        </div>
+
+        <div class="mt-10 flex flex-col items-center">
+          <button
+            class="hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg w-56 flex"
+          >
+            <div class="ml-1">
+              <img src="images/home.png" class="w-7 h-7" />
+            </div>
+            <lable class="ml-6">Accueil</lable>
+          </button>
+          <button
+            class="hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg w-56 flex"
+          >
+            <img src="images/compte.png" class="w-8 h-8" />
+            <lable class="ml-6">Mon Compte</lable>
+          </button>
+          <button
+            class="hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg w-56 flex"
+          >
+            <img src="images/events.png" class="w-8 h-8" />
+            <lable class="ml-6">Evenements</lable>
+          </button>
+          <button
+            class="hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg w-56 flex"
+          >
+            <img src="images/recherches.png" class="w-8 h-8" />
+            <lable class="ml-6">Recherches</lable>
+          </button>
+          <button
+            class="hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg w-56 flex"
+          >
+            <div class="ml-1">
+              <img src="images/paramétres.png" class="w-7 h-7" />
+            </div>
+            <lable class="ml-6">Paramétres</lable>
+          </button>
+          <button
+            class="hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg w-56 flex"
+          >
+            <div class="ml-1">
+              <img src="images/log-out.png" class="w-7 h-7" />
+            </div>
+            <lable class="ml-6">Déconnecter</lable>
+          </button>
+        </div>
       </div>
-      <div class="content">
-        <div class="header bg-white border border-blue-500">
-          <div class="flex justify-between">
-            <img src="./images/Logo-Spotify-1.jpg" class="w-16 h-26 mt-2">
-            <img src="./images/xbox.png" class="w-16 h-16 mt-2">
+      <div class="content bg-gray-400">
+        <div style="background-color: #F2F2F2;" class="flex justify-center pt-3">
+          <div
+            class="header bg-white border shadow-md shadow-zinc-400 rounded-md"
+          >
+            <div class="flex justify-between">
+              <img src="./images/Logo-Spotify-1.jpg" class="w-16 h-26 mt-2" />
+              <img src="./images/xbox.png" class="w-16 h-16 mt-2" />
+            </div>
           </div>
         </div>
-        <div id="root" class="bg-gray-400">
-          
-        </div>
+        <div id="root" class="bg-gray-400"></div>
       </div>
     </div>
     <script src="../src/index.js" type="text/JSX"></script>

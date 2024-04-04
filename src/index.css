@@ -8,7 +8,7 @@
 }
 
 #root {
-  height: 656px;
+  height: 644px;
   width: 1300px;
   background-color: #F2F2F2;
 }
@@ -17,7 +17,7 @@
   position: relative;
   z-index: 10;
   width: 250px;
-  height: 736px;
+  height: 737px;
   background-color: #1b545a;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
@@ -30,7 +30,7 @@
 }
 
 .header {
-  width: 1300px;
+  width: 1280px;
   height:80px;
 }
 
