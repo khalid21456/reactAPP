@@ -18,8 +18,8 @@
   z-index: 10;
   width: 250px;
   height: 737px;
-  background-color: #1b545a;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  /* background-color:  /*#1b545a;*/ 
+  background-image: linear-gradient(to right, #ff7e5f, #feb47b);
 }
 
 .nom {
