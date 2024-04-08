@@ -21,11 +21,13 @@ function AfficherCompte() {
     setNom(NomInput.value)
   }
 
+  
+
   return (
     <>
       <div className="flex justify-center">
-        <div className="container bg-white shadow-md rounded-md mt-9">
-          <div className="flex justify-evenly pt-9">
+        <div className="container bg-white shadow-md rounded-md mt-9 hover:shadow-none">
+          <div className="flex justify-evenly pt-9 ">
             <div className="ml-7">
               <label className="pt-2 pr-4 font-bold">Prénom</label>
               <input
@@ -70,7 +72,7 @@ function AfficherCompte() {
         <div className="data">
           <AfficherData prenom={prenom} nom={nom} age={age}/>
         </div>
-        <div className="data shadow-md rounded-md bg-white mt-9"></div>
+        <div className="data shadow-md rounded-md bg-white mt-9 hover:shadow-none"></div>
             <AfficheImg/>
         </div>
     </>
@@ -78,3 +80,4 @@ function AfficherCompte() {
 }
 
 export default AfficherCompte;
+
