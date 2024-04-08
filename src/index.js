@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM,{render} from 'react-dom';
 import './index.css';
 import App from './App';
 import AfficherCompte from './Composants/Compte';
 import Recherche from './Composants/Recherche';
+import Evenement from "./Composants/Evenement";
 
 const root = document.getElementById("root");
 ReactDOM.render(
@@ -37,7 +38,9 @@ RechercheBtn.addEventListener("click",(event)=> {
 })
 
 EvenementBtn.addEventListener("click",(event)=> {
-  
+  render(
+    <Evenement/>,root
+  )
 })
 
 
