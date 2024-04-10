@@ -12,3 +12,26 @@
 .container1 {
     height:600px;
 }
+
+.image-container {
+    width: 200px;
+    height: 130px;
+}
+
+.eventImage {
+    width: 200px;
+    height: 130px;
+}
+
+.contentContainer {
+    height: 110px;
+}
+
+.divContainer {
+    width: 850px;
+}
+
+.delete {
+    width: 28px;
+    height: 28px;
+}
