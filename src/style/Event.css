@@ -25,13 +25,19 @@
 
 .contentContainer {
     height: 110px;
+    width: 800px;
 }
 
 .divContainer {
     width: 850px;
 }
 
-.delete {
+.delete, .favoris, .like {
     width: 28px;
     height: 28px;
+    margin-top:5px;
+}
+
+.title {
+    font-family: "Roboto Slab", serif;
 }
